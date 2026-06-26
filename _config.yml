@@ -5,7 +5,7 @@ description: "Celebrating local nature and wildlife, and exploring ways to care 
 # Set these before pushing to GitHub:
 #   url: "https://yourusername.github.io"
 #   baseurl: "/eco-fest"   # the repo name; use "" if the repo is yourusername.github.io
-url: "https://latinrickshaw.github.io""
+url: "https://latinrickshaw.github.io"
 baseurl: "/eco-fest"
 
 # ── Event details ─────────────────────────────────────────────────────────────
