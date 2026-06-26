@@ -1,0 +1,6 @@
+title: Eco Fest
+description: Churches Together in Headington - Eco Fest Website
+theme: minima
+
+plugins:
+  - jekyll-feed
