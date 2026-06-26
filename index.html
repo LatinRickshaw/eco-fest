@@ -1,0 +1,165 @@
+---
+layout: default
+title: "Eco Fest: Celebrate"
+description: "Celebrating local nature and wildlife, and exploring ways to care for our common home, Planet Earth."
+---
+
+<!-- ═══════════════════════════════════════════════════════════════
+  HERO
+════════════════════════════════════════════════════════════════ -->
+<header class="hero">
+  <div class="container">
+
+    <!-- Drop Churches Together logo at assets/images/logo.png -->
+    <div class="hero__logo">
+      <img src="{{ site.baseurl }}/assets/images/logo.png"
+           alt="{{ site.organiser }}"
+           width="120" height="120">
+    </div>
+
+    <p class="hero__organiser">{{ site.organiser }}</p>
+
+    <h1 class="hero__title">Eco Fest:<br>Celebrate</h1>
+
+    <div class="hero__when">
+      <strong>{{ site.event_date }}</strong><br>
+      {{ site.event_time }}<br>
+      {{ site.event_venue }}
+    </div>
+
+    <div>
+      <span class="badge-free">FREE to enter</span>
+    </div>
+
+    <p class="hero__strapline">
+      Celebrating local nature and wildlife, and exploring ways to care for
+      our common home, Planet Earth.
+    </p>
+
+    <nav class="hero__nav" aria-label="Jump to section">
+      <a href="#about">About</a>
+      <a href="#whats-on">What's On</a>
+      <a href="#stallholders">Stallholders</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════════════════
+  ABOUT
+════════════════════════════════════════════════════════════════ -->
+<section class="about" id="about">
+  <div class="container">
+    <h2 class="section-title">Welcome!</h2>
+    <p>
+      Welcome to the Eco Festival! We're celebrating our wonderful local nature
+      and wildlife, and exploring ways to help preserve our common home, Planet
+      Earth. Entry and all activities are free, with talks throughout the day on
+      environmental topics.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+  HIGHLIGHTS STRIP
+════════════════════════════════════════════════════════════════ -->
+<section class="highlights">
+  <div class="container">
+    <div class="highlights__inner">
+      <span class="highlights__label">Highlights:</span>
+      <span class="highlight-pill">Expert Energy Advice</span>
+      <span class="highlight-pill">Indian Street Food</span>
+      <span class="highlight-pill">Bike Repairs</span>
+      <span class="highlight-pill">Local Nature Groups</span>
+      <span class="highlight-pill">Children's Activities</span>
+      <span class="highlight-pill">Talks All Day</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+  WHAT'S ON
+════════════════════════════════════════════════════════════════ -->
+<section id="whats-on">
+  <div class="container">
+    <h2 class="section-title">What's On</h2>
+    <p class="section-intro">
+      A full day of stalls, activities, talks, and food — all free to enjoy.
+    </p>
+
+    <div class="cards-grid">
+      {% for stall in site.data.stalls %}
+      <div class="card">
+        <div class="card__name">{{ stall.name }}</div>
+        {% if stall.desc and stall.desc != "" %}
+        <div class="card__desc">{{ stall.desc }}</div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+  STALLHOLDERS
+════════════════════════════════════════════════════════════════ -->
+<section id="stallholders">
+  <div class="container">
+    <h2 class="section-title">Take Part as a Stallholder</h2>
+    <p class="section-intro">
+      We'd love community groups, charities, and local organisations to join us.
+      Here's everything you need to know:
+    </p>
+
+    <ul class="stall-info-list">
+      <li>Entry is <strong>free</strong> for the public and stallholders alike.</li>
+      <li>Arrive from <strong>10am</strong> to set up; please clear away by <strong>4pm</strong>.</li>
+      <li>Pitches are allocated on arrival — both <strong>indoor and outdoor</strong> space is available.</li>
+      <li>There is <strong>no mains electrical power</strong> on site. Generators are permitted if silenced and secured within a safety barrier.</li>
+      <li>Please bring your own stand, display, gazebo, tables, and chairs, and remove all your own refuse at the end of the day.</li>
+      <li><strong>Public Liability Insurance</strong> is provided by {{ site.organiser }} (this excludes unaccompanied minors and dangerous equipment).</li>
+      <li>There's a <strong>Speaker's Corner</strong> with 15-minute slots for talks on environmental topics — request a slot when you register.</li>
+    </ul>
+
+    <a class="cta-button"
+       href="mailto:{{ site.stallholder_email }}?subject=Eco%20Fest%20Stallholder%20Registration">
+      Register your stall
+    </a>
+
+    <!-- If you have a Google Form, replace the URL and uncomment these lines:
+    <br>
+    <a class="form-link" href="https://forms.google.com/YOUR-FORM-URL" target="_blank" rel="noopener">
+      Or fill in the online registration form &rarr;
+    </a>
+    -->
+
+    <p class="deadline">
+      Please register by <strong>{{ site.registration_deadline }}</strong>.
+      Questions? Email <a href="mailto:{{ site.stallholder_email }}">{{ site.stallholder_email }}</a>.
+    </p>
+
+    <div class="notice-callout" role="note">
+      <strong>Important:</strong> For insurance reasons, all minors must be accompanied by an adult at all times.
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+  FOOTER / CONTACT
+════════════════════════════════════════════════════════════════ -->
+<footer class="site-footer" id="contact">
+  <div class="container">
+    <p>
+      <a href="{{ site.organiser_website }}" rel="noopener" target="_blank">
+        {{ site.organiser_website | remove: "https://" }}
+      </a>
+      &nbsp;&bull;&nbsp;
+      <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+    </p>
+    <hr>
+    <p>Organised by {{ site.organiser }}</p>
+  </div>
+</footer>

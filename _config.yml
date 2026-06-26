@@ -1,6 +1,31 @@
-title: Eco Fest
-description: Churches Together in Headington - Eco Fest Website
-theme: minima
+title: "Eco Fest: Celebrate"
+description: "Celebrating local nature and wildlife, and exploring ways to care for our common home, Planet Earth."
+
+# ── GitHub Pages URL ──────────────────────────────────────────────────────────
+# Set these before pushing to GitHub:
+#   url: "https://yourusername.github.io"
+#   baseurl: "/eco-fest"   # the repo name; use "" if the repo is yourusername.github.io
+url: "https://latinrickshaw.github.io""
+baseurl: "/eco-fest"
+
+# ── Event details ─────────────────────────────────────────────────────────────
+# Edit once here; values flow to the page via {{ site.event_date }} etc.
+event_date:            "Saturday 19th September 2026"
+event_time:            "11am – 3pm"
+event_venue:           "URC, Collinwood Road, Risinghurst, Oxford OX3 8HW"
+registration_deadline: "Monday 13 July 2026"
+contact_email:         "headington.churches.events@gmail.com"
+stallholder_email:     "headington.churches.events@outlook.com"
+organiser:             "Churches Together in Headington"
+organiser_website:     "https://www.headington.churches.org"
+
+# ── Build settings ────────────────────────────────────────────────────────────
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor/
 
 plugins:
   - jekyll-feed

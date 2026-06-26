@@ -1,0 +1,65 @@
+# Stalls and activities shown in the "What's On" grid.
+# Each entry needs a `name`; `desc` is optional but recommended.
+
+- name: Allotments
+  desc: Local planters and growers
+
+- name: BBOWT
+  desc: Berkshire, Buckinghamshire & Oxfordshire Wildlife Trust
+
+- name: Bicycle Repair
+  desc: Bring your old bike and get it fixed on the day
+
+- name: Black Mould Prevention
+  desc: How to prevent mould in your home
+
+- name: Children's Activities
+  desc: Mud kitchen, origami jumping frogs, Lye Valley game, planting seeds, drawing from nature, make an insect mask
+
+- name: Compost Making
+  desc: Expert advice from Jo Milton, OCC
+
+- name: Cosy Homes
+  desc: Future-proof your home through insulation and energy choices
+
+- name: Crochet
+  desc: Learn how to make things from scraps of yarn
+
+- name: Deep's Delhi
+  desc: Delicious Indian street food to buy
+
+- name: Friends of Lye Valley
+  desc: Learn about this wonderful local SSSI with Judy Webb
+
+- name: Garden Group
+  desc: What's growing locally
+
+- name: Ice Cream Van
+  desc: A welcome treat on a warm afternoon
+
+- name: Low Carbon Hub
+  desc: Energy savings for all
+
+- name: Prayer Tent
+  desc: Say a prayer for the planet
+
+- name: Refreshments
+  desc: Hot and cold drinks available
+
+- name: RSPB
+  desc: Support the birds in your garden
+
+- name: Sandhills Naturehood
+  desc: Local group supporting the natural environment
+
+- name: Textiles in Oxford
+  desc: Making art and clothes from re-purposed textiles
+
+- name: Wild About Risinghurst
+  desc: Find out about real wildlife near you
+
+- name: Woodland Trust
+  desc: Our favourite wild animals depend on our beautiful woodlands
+
+- name: Zero Carbon Oxford & Planning OCC
+  desc: With Councillor Anna Railworth

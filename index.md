@@ -1,6 +1,3 @@
 ---
-layout: home
-title: Eco Fest
+published: false
 ---
-
-Welcome to the Eco Fest website starter built with Jekyll for GitHub Pages.
