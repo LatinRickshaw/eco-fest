@@ -39,7 +39,7 @@ a:hover { color: var(--green-900); }
   margin-inline: auto;
   padding-inline: 1.25rem;
 }
-section { padding: 3rem 0; }
+section { padding: 1rem 0; }
 
 /* ── Hero ──────────────────────────────────────────────────────────────────── */
 .hero {
@@ -145,13 +145,22 @@ section { padding: 3rem 0; }
 }
 
 /* ── About ─────────────────────────────────────────────────────────────────── */
-.about { background: var(--green-50); }
+.about { background: transparent; }
+.about > .container {
+  background: var(--green-50);
+  padding-block: 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
 .about p { max-width: 680px; font-size: 1.05rem; line-height: 1.75; }
 
 /* ── Highlights strip ──────────────────────────────────────────────────────── */
-.highlights {
+.highlights { background: transparent; }
+.highlights > .container {
   background: var(--sky-300);
-  padding: 1.5rem 0;
+  padding-block: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 .highlights__inner {
   display: flex;
@@ -179,7 +188,13 @@ section { padding: 3rem 0; }
 }
 
 /* ── What's On cards grid ──────────────────────────────────────────────────── */
-#whats-on { background: var(--white); }
+#whats-on { background: transparent; }
+#whats-on > .container {
+  background: var(--white);
+  padding-block: 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
 
 .cards-grid {
   display: grid;
@@ -206,7 +221,13 @@ section { padding: 3rem 0; }
 }
 
 /* ── Stallholders ──────────────────────────────────────────────────────────── */
-#stallholders { background: var(--green-50); }
+#stallholders { background: transparent; }
+#stallholders > .container {
+  background: var(--green-50);
+  padding-block: 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
 
 .stall-info-list {
   list-style: none;
