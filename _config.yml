@@ -10,14 +10,14 @@ baseurl: "/eco-fest"
 
 # ── Event details ─────────────────────────────────────────────────────────────
 # Edit once here; values flow to the page via {{ site.event_date }} etc.
-event_date:            "Saturday 19th September 2026"
-event_time:            "11am – 3pm"
-event_venue:           "URC, Collinwood Road, Risinghurst, Oxford OX3 8HW"
+event_date: "Saturday 19th September 2026"
+event_time: "11am – 3pm"
+event_venue: "URC, Collinwood Road, Risinghurst, Oxford OX3 8HW"
 registration_deadline: "Monday 13 July 2026"
-contact_email:         "headington.churches.events@gmail.com"
-stallholder_email:     "headington.churches.events@outlook.com"
-organiser:             "Churches Together in Headington"
-organiser_website:     "https://www.headington.churches.org"
+contact_email: "tbc"
+stallholder_email: "tbc"
+organiser: "Churches Together in Headington"
+organiser_website: "https://www.headington.churches.org"
 
 # ── Build settings ────────────────────────────────────────────────────────────
 exclude:
