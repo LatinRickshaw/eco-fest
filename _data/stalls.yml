@@ -40,11 +40,14 @@
 - name: Low Carbon Hub
   desc: Energy savings for all
 
+- name: Oxford Christian Climate Action
+  desc: Direct action, public witness for the climate
+
 - name: Prayer Tent
   desc: Say a prayer for the planet
 
 - name: Refreshments
-  desc: Hot and cold drinks available
+  desc: Hot and cold drinks all day
 
 - name: RSPB
   desc: Support the birds in your garden
@@ -62,4 +65,4 @@
   desc: Our favourite wild animals depend on our beautiful woodlands
 
 - name: Zero Carbon Oxford & Planning OCC
-  desc: With Councillor Anna Railworth
+  desc: Cllr Anna Railton, cabinet member for planning and zero carbon Oxford

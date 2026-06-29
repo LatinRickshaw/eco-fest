@@ -6,3 +6,4 @@ _site/
 vendor/
 # Gemfile.lock is optional — include it to pin gem versions for reproducible local builds
 # Gemfile.lock
+.DS_Store
