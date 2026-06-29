@@ -157,7 +157,7 @@ section { padding: 1rem 0; }
 /* ── Highlights strip ──────────────────────────────────────────────────────── */
 .highlights { background: transparent; }
 .highlights > .container {
-  background: var(--sky-300);
+  background: var(--green-200);
   padding-block: 1.5rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
