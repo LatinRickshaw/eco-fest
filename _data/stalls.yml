@@ -1,8 +1,8 @@
 # Stalls and activities shown in the "What's On" grid.
 # Each entry needs a `name`; `desc` is optional but recommended.
 
-- name: Allotments
-  desc: Local planters and growers
+- name: Allotments in Risinghurst
+  desc: Grow your own produce
 
 - name: BBOWT
   desc: Berkshire, Buckinghamshire & Oxfordshire Wildlife Trust
@@ -56,7 +56,7 @@
   desc: Local group supporting the natural environment
 
 - name: Textiles in Oxford
-  desc: Making art and clothes from re-purposed textiles
+  desc: A group of local artists creating textile art, often incorporating repurposed textiles and inspired by the world around them
 
 - name: Wild About Risinghurst
   desc: Find out about real wildlife near you
@@ -65,4 +65,4 @@
   desc: Our favourite wild animals depend on our beautiful woodlands
 
 - name: Zero Carbon Oxford & Planning OCC
-  desc: Cllr Anna Railton, cabinet member for planning and zero carbon Oxford
+  desc: Cllr Anna Railton, Deputy Leader and Cabinet Member for Planning and Zero Carbon Oxford
