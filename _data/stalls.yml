@@ -7,11 +7,11 @@
 - name: BBOWT
   desc: Berkshire, Buckinghamshire & Oxfordshire Wildlife Trust
 
-- name: Bicycle Repair
-  desc: Bring your old bike and get it fixed on the day
-
 - name: Black Mould Prevention
   desc: How to prevent mould in your home
+
+- name: Broken Spoke
+  desc: Bike repairs with Broken Spoke Bike Coop. Bring your bike for free repairs - (pay for any new parts needed.)
 
 - name: Children's Activities
   desc: Mud kitchen, origami jumping frogs, Lye Valley game, planting seeds, drawing from nature, make an insect mask
@@ -42,6 +42,9 @@
 
 - name: Oxford Christian Climate Action
   desc: Direct action, public witness for the climate
+
+- name: Oxfordshire Mammal Group
+  desc: We increase public awareness and knowledge of mammals, and encourage research and conservation, particularly of our local native species. Find out more about our work.
 
 - name: Prayer Tent
   desc: Say a prayer for the planet
