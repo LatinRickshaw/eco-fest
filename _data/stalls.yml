@@ -1,7 +1,7 @@
 # Stalls and activities shown in the "What's On" grid.
 # Each entry needs a `name`; `desc` is optional but recommended.
 
-- name: Allotments in Risinghurst
+- name: Risinghurst Allotments
   desc: Grow your own produce
 
 - name: BBOWT
