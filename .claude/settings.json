@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(bundle exec *)",
-      "Bash(xargs -I{} echo {})"
+      "Bash(xargs -I{} echo {})",
+      "Bash(git -C /Users/christian/Projects/latinRickshaw/eco-fest status --short)",
+      "Bash(git -C /Users/christian/Projects/latinRickshaw/eco-fest diff -- _data/stalls.yml)",
+      "Bash(git -C /Users/christian/Projects/latinRickshaw/eco-fest log --oneline -- _data/stalls.yml)"
     ]
   }
 }

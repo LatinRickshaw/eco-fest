@@ -147,6 +147,16 @@ section { padding: 1rem 0; }
 }
 .about p { max-width: 680px; font-size: 1.05rem; line-height: 1.75; }
 
+/* ── Special guests ────────────────────────────────────────────────────────── */
+#guests { background: transparent; }
+#guests > .container {
+  background: var(--white);
+  padding-block: 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+#guests .stall-info-list { margin-top: 1.25rem; }
+
 /* ── Highlights strip ──────────────────────────────────────────────────────── */
 .highlights { background: transparent; }
 .highlights > .container {
