@@ -37,6 +37,7 @@ description: "Celebrating local nature and wildlife, and exploring ways to care 
       <a href="#about">About</a>
       <a href="#whats-on">What's On</a>
       <a href="#guests">Guests</a>
+      <a href="#food">Food</a>
       <a href="#stallholders">Stallholders</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -76,6 +77,30 @@ description: "Celebrating local nature and wildlife, and exploring ways to care 
         <strong>Anneliese Dodds MP</strong> will be visiting the event.
       </li>
     </ul>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+  FOOD
+════════════════════════════════════════════════════════════════ -->
+<section id="food">
+  <div class="container">
+    <h2 class="section-title">Food</h2>
+    <p class="section-intro">
+      Grab a bite from our food vendors on the day.
+    </p>
+
+    <div class="cards-grid">
+      {% for item in site.data.food %}
+      <div class="card">
+        <div class="card__name">{{ item.offering }}</div>
+        <div class="card__desc">
+          {{ item.vendor }}{% if item.desc and item.desc != "" %} — {{ item.desc }}{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
 
   </div>
 </section>

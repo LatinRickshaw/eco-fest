@@ -1,0 +1,10 @@
+# Food vendors at the event, shown in the Food section.
+# Each entry needs a `vendor` and `offering`; `desc` is optional but recommended.
+
+- vendor: Thai Fusion on Wheels
+  offering: A Taste of Thailand
+  desc: Thai street food
+
+- vendor: Mr Nicecream
+  offering: Ice Cream
+  desc: A cool treat on a warm afternoon

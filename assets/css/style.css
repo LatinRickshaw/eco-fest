@@ -157,6 +157,15 @@ section { padding: 1rem 0; }
 }
 #guests .stall-info-list { margin-top: 1.25rem; }
 
+/* ── Food ──────────────────────────────────────────────────────────────────── */
+#food { background: transparent; }
+#food > .container {
+  background: var(--white);
+  padding-block: 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
 /* ── Highlights strip ──────────────────────────────────────────────────────── */
 .highlights { background: transparent; }
 .highlights > .container {
